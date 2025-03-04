@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleips.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box ;
+    font-family: "Montserrat" ,"sans-serif";
+}
+body{
+    background: #1f242d;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 50;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.logo{
+    font-size: 28px;
+    font-weight: 600;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    margin-left: 35px;
+}
+ul li a{
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.5s ease-in-out;
+}
+ul li:hover a , a.active{
+     color: #e1ad14;
+}
+.main{
+    height: 100vh;
+    padding: 100px 8% 0;
+    display: flex;  
+    align-items: center;
+    gap: 200px ;
+
+   color: #fff;
+}
+
+.main h1{
+    font-size: 55px;
+}
+.main h2{
+    font-size: 32px;
+}
+.main p{
+    font-size: 16px;
+    margin: 10px 0 25px;
+}
+.btn-wrapper{
+ display: flex;
+ align-items: center;
+ margin-top: 50px;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    background: #e1ad14;
+    border: 2px solid #e1ad14;
+    border-radius: 40px; 
+    box-shadow: 0 0 10px #e1ad14;
+    color: #1f242d;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.5s ease-in-out;
+}
+.btn:hover{
+    background: none;
+    color: #e1ad14;
+}
+.social{
+    margin-left: 20px;
+
+}
+.social a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #e1ad14;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #e1ad14;
+    margin: 0 8px;
+    transition: 0.5s ease-in-out;
+}
+.social a:hover{
+    background: #e1ad14;
+    color: #1f242d;
+    box-shadow: 0 0 10px #e1ad14;
+
+}
+
+img{
+    width: 450px;
+    height: 500px;
+     border: 2px solid #141413;
+     box-shadow: 0 0 10px #e1ad14;
+     border-radius: 50px;
+     transition: 1s ;
+
+}
+img:hover{
+    box-shadow: 0 0 40px #e1ad14;
+}
